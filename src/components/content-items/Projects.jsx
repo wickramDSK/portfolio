@@ -6,7 +6,7 @@ function Projects() {
       description:
         "A React-based portfolio website showcasing my work & qualifications.",
       tech: ["React", "HTML", "CSS", "JavaScript", "Vite"],
-      github: "github-link",
+      github: "https://github.com/wickramDSK/portfolio",
     },
   ];
 
