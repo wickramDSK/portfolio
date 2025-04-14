@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import EduIcon from "../../assets/education-icon.png";
+import ProfilePic from "../../assets/profile.png";
 
 const interests = [
   "Full-Stack Development",
@@ -80,7 +81,7 @@ function AboutMe() {
             <td>
               <div className="profile-image-wrapper">
                 <img
-                  src="./src/assets/profile.png"
+                  src={ProfilePic}
                   alt="Profile"
                   className="profile-image"
                 />
